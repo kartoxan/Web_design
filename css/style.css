@@ -1,0 +1,460 @@
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.gray{
+	color: gray;
+}
+.paddingright25{
+	padding-right: 25%
+}
+.textphoto{
+	position: absolute;
+	padding-left: 50px;
+	bottom: 50%;
+	color: white;
+}
+.textphoto3{
+	position: absolute;
+	padding-left: 50px;
+	bottom: 45%;
+	color: white;
+}
+.textphoto4{
+	position: absolute;
+	padding-left: 120px;
+	bottom: 47%;
+	color: white;
+}
+.textphoto5{
+	position: absolute;
+	padding-left: 190px;
+	bottom: 47%;
+	color: white;
+}
+.textphoto6{
+	position: absolute;
+	padding-left: 255px;
+	bottom: 48%;
+	color: white;
+}
+.textphoto7{
+	position: absolute;
+	padding-left:	100px;
+	bottom: 48%;
+	color: white;
+}
+.howWorktext{
+	font-size: 15px;
+}
+.howworkonimg{
+	padding-left: 8px;
+	position: relative;
+	bottom: 30%;
+}
+.howworkonimg2{
+	padding-left: 8px;
+	position: relative;
+	bottom: 25%;
+}
+@media (min-width:  1440px) {
+    .conta {
+        width: auto;
+    }
+		.logo{
+		   font-size: 20px;
+		   font-weight: 700;
+		   color: #ffffff;
+		   margin: 0 120px;
+		   font-family: Monsterrat;
+		}
+		.oval {
+			width: 90px;
+			height: 36px;
+			border-color: #ffffff;
+			border-style: solid;
+			-moz-border-radius: 30px ;
+			-webkit-border-radius: 30px;
+			border-radius: 40px / 30px;
+			text-align: center;
+		}
+		.header{
+			background: url("../img/icons/header.jpg");
+			height: 100%;
+		  padding-top: 46px;
+		  height: 666px;
+		  margin-bottom: 98px;
+		  background-repeat: no-repeat;
+		}
+		.menu__item{
+			margin: 0 20px;
+		}
+		.menu__item a{
+			font-size: 14px;
+			font-weight: 700;
+			font-family: Monsterrat;
+			color: #ffffff;
+		}
+		.offer_title{
+			margin-top: 135px;
+			margin-left: 35px;
+			text-align: center;
+			font-size: 52px;
+			font-weight: 700;
+			text-transform: uppercase;
+			font-family: Monsterrat;
+			color: #ffffff;
+		}
+		.offer_info{
+			margin-top: 20px;
+			text-align: center;
+			color: #ffffff;
+			font-family: Roboto;
+			font-size: 24px;
+			font-weight: 500;
+		    padding-bottom: 32px;
+		}
+		.backgroundHeaderButton a{
+			font-family: Monsterrat;
+			font-size: 14px;
+			font-weight: 700;
+			color: #ffffff;
+		}
+		.backgroundHeaderButton {
+			width: 225px;
+			height: 36px;
+			background: #ff4e50;
+			border-radius: 20px;
+			text-align: center;
+			margin-left: 198px;
+		}
+		.offerWork h2{
+			text-align: center;
+			font-size: 22px;
+			font-weight: 700;
+			color: #333333;
+			font-family:Monsterrat;
+			margin-bottom: 35px;
+		}
+		.slider__item{
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		.stepBackground{
+			width: 70px;
+			height: 20px;
+			background: #ff4e50;
+			border-radius: 10px;
+		    text-align: center;
+		}
+		.offerPartner h2{
+			text-align: center;
+			font-size: 26px;
+			font-weight: 700;
+			color:#333333;
+			font-family:  Monsterrat;
+			margin-bottom: 33px;
+		}
+		.partner__item{
+			margin: 0 20px;
+			text-align: center;
+		}
+		.partner__item h3{
+			font-family: 	Monsterrat;
+			font-size: 	16px;
+			font-weight:700;
+			color: 	#333333;
+			text-align: center;
+			padding:15px;
+
+		}
+		.partner__item p {
+			text-align: center;
+			font-size: 14px;
+			width: 200px;
+			font-weight: 300;
+			font-family: Monsterrat;
+			padding-bottom: 53px;
+			color: #666666;
+		}
+		.parnterButtonBackground{
+		    width: 192px;
+			height: 40px;
+			border: 2px solid #ff4e50;
+			border-radius: 20px;
+			text-align: center;
+			margin-bottom: 100px;
+		}
+		.parnterButton{
+			color: #ff4e50;
+			margin-top: 5px;
+		}
+		.photosOffer{
+			font-size: 24px;
+			font-weight: 700;
+			width: 400px;
+			color:#333333;
+			font-family:  Monsterrat;
+			margin-bottom: 33px;
+		}
+		.photos__item{
+			padding: 10px;
+		}
+		.searchOffer{
+			font-size: 24px;
+			font-weight: 700;
+			width: 400px;
+			color:#333333;
+			font-family:  Monsterrat;
+			margin-bottom: 33px;
+			padding-top: 100px;
+		}
+		.searchOffer2{
+			margin-top: 36px;
+			text-align: center;
+		    color: #333333;
+			font-family: Roboto;
+			font-size: 22px;
+			font-weight: 150;
+		}
+		.backgroundSearch1{
+			 width: 192px;
+			height: 40px;
+			border: 1px solid #cccccc;
+		    border-radius: 2px;
+			text-align: left;
+			margin-bottom: 100px;
+		}
+		.backgroundSearch2{
+		    width: 192px;
+			height: 40px;
+			background:  #ff4e50;
+			border-radius: 20px;
+			text-align: center;
+			margin-bottom: 100px;
+		}
+		.search__item{
+			margin: 0 20px;
+		}
+		.search1{
+			color: #999999;
+			font-family: Roboto;
+			font-size: 14px;
+			padding-top: 7px;
+			padding-left: 10px;
+		}
+		.search2{
+			color: #ffffff;
+			font-family: Montserrat;
+			font-size: 14px;
+			padding-top: 7px;
+		}
+		.line{
+			width: 2000px;
+			height: 5px;
+			background-color: red;
+			position: relative;
+			margin-bottom: 20px;
+		}
+}
+@media (min-width:  760px) {
+    .conta {
+        width: auto;
+    }
+		.logo{
+			 font-size: 20px;
+			 font-weight: 700;
+			 color: #ffffff;
+			 margin: 0 120px;
+			 font-family: Monsterrat;
+		}
+		.oval {
+			width: 90px;
+			height: 36px;
+			border-color: #ffffff;
+			border-style: solid;
+			-moz-border-radius: 30px ;
+			-webkit-border-radius: 30px;
+			border-radius: 40px / 30px;
+			text-align: center;
+		}
+		.header{
+			background: url("../img/icons/header.jpg");
+			background-size: 100%;
+			padding-top: 46px;
+			height: 600px;
+			margin-bottom: 98px;
+			background-repeat: no-repeat;
+		}
+		.menu__item{
+			margin: 0 20px;
+		}
+		.menu__item a{
+			font-size: 14px;
+			font-weight: 700;
+			font-family: Monsterrat;
+			color: #ffffff;
+		}
+		.offer_title{
+			margin-top: 135px;
+			margin-left: 35px;
+			text-align: center;
+			font-size: 52px;
+			font-weight: 700;
+			text-transform: uppercase;
+			font-family: Monsterrat;
+			color: #ffffff;
+		}
+		.offer_info{
+			margin-top: 20px;
+			text-align: center;
+			color: #ffffff;
+			font-family: Roboto;
+			font-size: 24px;
+			font-weight: 500;
+				padding-bottom: 32px;
+		}
+		.backgroundHeaderButton a{
+			font-family: Monsterrat;
+			font-size: 14px;
+			font-weight: 700;
+			color: #ffffff;
+		}
+		.backgroundHeaderButton {
+			width: 225px;
+			height: 36px;
+			background: #ff4e50;
+			border-radius: 20px;
+			text-align: center;
+			margin-left: 198px;
+		}
+		.offerWork h2{
+			text-align: center;
+			font-size: 22px;
+			font-weight: 700;
+			color: #333333;
+			font-family:Monsterrat;
+			margin-bottom: 35px;
+		}
+		.slider__item{
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		.stepBackground{
+			width: 70px;
+			height: 20px;
+			background: #ff4e50;
+			border-radius: 10px;
+				text-align: center;
+		}
+		.offerPartner h2{
+			text-align: center;
+			font-size: 26px;
+			font-weight: 700;
+			color:#333333;
+			font-family:  Monsterrat;
+			margin-bottom: 33px;
+		}
+		.partner__item{
+			margin: 0 20px;
+			text-align: center;
+		}
+		.partner__item h3{
+			font-family: 	Monsterrat;
+			font-size: 	16px;
+			font-weight:700;
+			color: 	#333333;
+			text-align: center;
+			padding:15px;
+
+		}
+		.partner__item p {
+			text-align: center;
+			font-size: 14px;
+			width: 200px;
+			font-weight: 300;
+			font-family: Monsterrat;
+			padding-bottom: 53px;
+			color: #666666;
+		}
+		.parnterButtonBackground{
+				width: 192px;
+			height: 40px;
+			border: 2px solid #ff4e50;
+			border-radius: 20px;
+			text-align: center;
+			margin-bottom: 100px;
+		}
+		.parnterButton{
+			color: #ff4e50;
+			margin-top: 5px;
+		}
+		.photosOffer{
+			font-size: 24px;
+			font-weight: 700;
+			width: 400px;
+			color:#333333;
+			font-family:  Monsterrat;
+			margin-bottom: 33px;
+		}
+		.photos__item{
+			padding: 10px;
+		}
+		.searchOffer{
+			font-size: 24px;
+			font-weight: 700;
+			width: 400px;
+			color:#333333;
+			font-family:  Monsterrat;
+			margin-bottom: 33px;
+			padding-top: 100px;
+		}
+		.searchOffer2{
+			margin-top: 36px;
+			text-align: center;
+				color: #333333;
+			font-family: Roboto;
+			font-size: 22px;
+			font-weight: 150;
+		}
+		.backgroundSearch1{
+			 width: 192px;
+			height: 40px;
+			border: 1px solid #cccccc;
+				border-radius: 2px;
+			text-align: left;
+			margin-bottom: 100px;
+		}
+		.backgroundSearch2{
+				width: 192px;
+			height: 40px;
+			background:  #ff4e50;
+			border-radius: 20px;
+			text-align: center;
+			margin-bottom: 100px;
+		}
+		.search__item{
+			margin: 0 20px;
+		}
+		.search1{
+			color: #999999;
+			font-family: Roboto;
+			font-size: 14px;
+			padding-top: 7px;
+			padding-left: 10px;
+		}
+		.search2{
+			color: #ffffff;
+			font-family: Montserrat;
+			font-size: 14px;
+			padding-top: 7px;
+		}
+		.line{
+			width: 2000px;
+			height: 5px;
+			background-color: red;
+			position: relative;
+			margin-bottom: 20px;
+		}
+}
